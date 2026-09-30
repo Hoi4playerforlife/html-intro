@@ -40,12 +40,15 @@ body {
 margin-left: 300px;
 margin-right: 300px;
 min-height: 100vh;
+ line-height: 1.5;
+font-family: Arial, sans-serif;
 background: linear-gradient(
     to bottom,
     black 0% 33.333%,
     #dd0000 33.333% 66.666%,
     #ffce00 66.666% 100%
-);
+ 
+    )
 }
 
 h3 {
@@ -84,5 +87,15 @@ h6 {
 .reisetips {
     box-sizing: border-box;
     padding: 16px 24px;
+    color: white;
+}
+
+footer {
+    text-align:center;
+    font-size: 20px;
+    color: blue
+}
+
+#hvorfor-tyskland {
     color: white;
 }
