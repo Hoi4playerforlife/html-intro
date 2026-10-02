@@ -72,15 +72,58 @@ nav a {
 }
 
 
-h3 {
+h2 {
     text-align: center;
     font-size: 70px;
     
 }
 
 p {
-    text-align: center;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.innhold {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.innhold img {
+    width: 300px;
+    height: 200px;
+}
+
+ol,
+ul {
     font-size: 35px;
-    margin-right:500px;
-    margin-left:100px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+p{
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+    footer {
+        text-align:center;
+        font-size: 25px;
+        color: blue;
+        
+    }
+    body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+#hva-er-det {
+    padding: 30px;
+}
+
+.quote {
+    font-style: italic;
+    font-weight: bold;
 }
